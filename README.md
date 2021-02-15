@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/Joeseff6/TeamTitans)
+![GitHub](https://img.shields.io/github/license/Joeseff6/SitAndTakeNotes)
 
 # SitAndTakeNotes
 An application that uses both front end and back end application to be deployed to Heroku.
