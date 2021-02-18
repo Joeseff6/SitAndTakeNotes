@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 7000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname,'../css')));
+app.use(express.static(__dirname));
+
 
 require(`../../routes/apiRouting`)(app);
 require(`../../routes/htmlRouting`)(app);
