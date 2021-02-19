@@ -23,14 +23,14 @@ This application will be deployed on Heroku, and will be polished and responsive
 * Express.js
 ## Tasks to Complete the Job :white_check_mark:
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [x] When the user opens the Note Taker App, they will be presented the homepage
+- [x] When the user clicks on the "Get Started" button, they are taken to the notes page
+- [x] When the user goes to the notes page, existing notes will show on the side. If no notes exist, there will be a placeholder showing "No saved notes"
+- [x] When the user enters a note title and note text, a save button will appear in the navbar
+- [ ] When the user clicks the save icon, the note is saved and shows in the left-hand column with other notes
+- [x] When the user clicks on a saved note, the notes contents are displayed on the right-hand side
+- [ ] When the user clicks the write icon in the navbar, the right-hand fields will empty allowing for new notes
+
 
 ## Screenshots
 
