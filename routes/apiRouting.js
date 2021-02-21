@@ -1,3 +1,4 @@
+const { json } = require('express');
 const fs = require(`fs`);
 const path = require('path');
 
@@ -19,7 +20,7 @@ module.exports = (app) => {
         let ids = jsonData.map(existingNote => existingNote.id);
         note.id = jsonData.length + 1;
         while (ids.includes(note.id)) {
-            note.id += 1
+            note.id += 1;
         }
         jsonData.push(note);
         let stringData = JSON.stringify(jsonData);
@@ -27,7 +28,7 @@ module.exports = (app) => {
         fs.writeFile(`./db/db.json`, stringData, (err) => {
             if (err) {
                 console.log(err);
-            }
+            };
         });
 
         res.sendFile(path.join(__dirname, '../public/notes.html'));
@@ -39,10 +40,10 @@ module.exports = (app) => {
         let apiNote = jsonData.filter(note => note.id === id);
 
         if (apiNote.length === 0) {
-            res.send(`Note not found!`)
+            res.send(`Note not found!`);
         } else {
-            res.json(apiNote);;
-        }
+            res.json(apiNote);
+        };
     });
 
     app.delete(`/api/notes/:id`, (req, res) => {
@@ -54,7 +55,7 @@ module.exports = (app) => {
         fs.writeFile(`./db/db.json`, stringData, (err) => {
             if (err) {
                 console.log(err);
-            }
+            };
         });
         
         res.sendFile(path.join(__dirname, '../public/notes.html'));
