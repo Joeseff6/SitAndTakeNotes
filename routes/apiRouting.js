@@ -10,7 +10,7 @@ module.exports = (app) => {
     app.post(`/api/notes`, (req, res) => {
         let note = req.body;
         let jsonData = obtainJson();
-        note.id = jsonData.length;
+        note.id = jsonData.length + 1;
         jsonData.push(note)
         let stringData = JSON.stringify(jsonData)
 
