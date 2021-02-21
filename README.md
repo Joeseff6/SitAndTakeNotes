@@ -29,7 +29,7 @@ This application will be deployed on Heroku, and will be polished and responsive
 - [x] When the user enters a note title and note text, a save button will appear in the navbar
 - [ ] When the user clicks the save icon, the note is saved and shows in the left-hand column with other notes
 - [x] When the user clicks on a saved note, the notes contents are displayed on the right-hand side
-- [ ] When the user clicks the write icon in the navbar, the right-hand fields will empty allowing for new notes
+- [x] When the user clicks the write icon in the navbar, the right-hand fields will empty allowing for new notes
 
 
 ## Screenshots
