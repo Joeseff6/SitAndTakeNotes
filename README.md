@@ -33,5 +33,15 @@ This application will be deployed on Heroku, and will be polished and responsive
 
 ## Screenshots
 
+![Note taker home route](./assets/Images/Homepage.PNG)
+
+![Notes page without existing notes](./assets/Images/NotesRoute.PNG)
+
+![Notes page with notes added](./assets/Images/NotesRoute2.PNG)
+
+![API Page with existing notes](./assets/Images/ApiNotesRoute.PNG)
+
+
+
 
 
