@@ -19,6 +19,8 @@ module.exports = (app) => {
                 console.log(err);
             }
         })
+
+        res.sendFile(path.join(__dirname, '../public/notes.html'));
     })
 
     app.get(`/api/notes/:id`, (req, res) => {
