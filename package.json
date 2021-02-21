@@ -1,11 +1,12 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub](https://img.shields.io/github/license/Joeseff6/SitAndTakeNotes)",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon"
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeseff6/SitAndTakeNotes.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Joeseff6/SitAndTakeNotes/issues"
+  },
+  "homepage": "https://github.com/Joeseff6/SitAndTakeNotes#readme"
 }
